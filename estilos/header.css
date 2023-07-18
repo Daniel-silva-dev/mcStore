@@ -1,0 +1,20 @@
+.cabecalho {
+  height: 6rem;
+  background-color: #fe5d9f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.cabecalho img {
+  margin-left: 20rem;
+
+}
+
+.cabecalho img:hover {
+  height: 2.5rem;
+  border: solid 2px #000;
+  border-radius: 8px;
+  padding: .2rem;
+}
