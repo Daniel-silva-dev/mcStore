@@ -2,7 +2,6 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="./estilos/main.css">
@@ -14,15 +13,112 @@
     <header class="cabecalho">
       <p>MC STORE</p> <p><a href="#"><img src="./imagens/carrinho-de-compras.svg" alt="carrinho de compras"></a></p>
     </header>
-   <div class="slideBody">
-    <div class="slide">
-      <div class="conatinerSlides" id="img">
-        <img class="slides" src="https://images.news18.com/ibnlive/uploads/2019/08/red1.jpg" alt="slide 01">
-        <img class="slides" src="https://1000marcas.net/wp-content/uploads/2021/02/CSS-Logo.png" alt="slide 02">
-        <img class="slides" src="https://cdn.wallpapersafari.com/82/12/OBHTDf.jpg" alt="slide 03">
-      </div>
+    <!--INICIO DO SLIDE-->
+    <!DOCTYPE html>
+   <html lang="pt-br">
+      <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Slide Games</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="slide-wrapper" data-slide="wrapper">
+        <button class="slide-nav-button slide-nav-previous fas fa-chevron-left" data-slide="nav-previous-button"></button>
+        <button class="slide-nav-button slide-nav-next fas fa-chevron-right" data-slide="nav-next-button"></button>
+        <div class="slide-list" data-slide="list">
+            <div class="slide-item" data-slide="item" data-index="0">
+                <div class="slide-content">
+                    <img class="slide-image" src="./imagens/teste.jpg" alt="Assassin's Creed" />
+                    <div class="slide-description">
+                        <h3>Mc Store</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item" data-slide="item" data-index="1">
+                <div class="slide-content">
+                  <img class="slide-image" src="./imagens/teste.jpg" alt="Assassin's Creed" />
+                    <div class="slide-description">
+                       <h3>Mc Store</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item" data-slide="item" data-index="2">
+                <div class="slide-content">
+                  <img class="slide-image" src="./imagens/teste.jpg" alt="Assassin's Creed" />
+                    <div class="slide-description">
+                      <h3>Mc Store</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item" data-slide="item" data-index="3">
+                <div class="slide-content">
+                  <img class="slide-image" src="./imagens/teste.jpg" alt="Assassin's Creed" />
+                    <div class="slide-description">
+                      <h3>Mc Store</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item" data-slide="item" data-index="4">
+                <div class="slide-content">
+                  <img class="slide-image" src="./imagens/teste.jpg" alt="Assassin's Creed" />
+                    <div class="slide-description">
+                      <h3>Mc Store</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item" data-slide="item" data-index="5">
+                <div class="slide-content">
+                  <img class="slide-image" src="./imagens/teste.jpg" alt="Assassin's Creed" />
+                    <div class="slide-description">
+                      <h3>Mc Store</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item" data-slide="item" data-index="6">
+                <div class="slide-content">
+                  <img class="slide-image" src="./imagens/teste.jpg" alt="Assassin's Creed" />
+                    <div class="slide-description">
+                      <h3>Mc Store</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item" data-slide="item" data-index="7">
+                <div class="slide-content">
+                  <img class="slide-image" src="./imagens/teste.jpg" alt="Assassin's Creed" />
+                    <div class="slide-description">
+                      <h3>Mc Store</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide-controls" data-slide="controls-wrapper">
+        </div>
     </div>
-   </div>
-    <script type="module" src="./scripts/slide.js"></script>
+</div>
+    <script src="./assets/js/slides.js"></script>
+    <script>
+        initSlider({
+            autoPlay: true,
+            startAtIndex: 0,
+            timeInterval: 2000
+        })
+    </script>
+</body>
+    </html>
+    <!--FIM DO SLIDE-->
   </body>
 </html>

@@ -1,9 +1,23 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #070707;
+}
 
 .wrapper {
   display: flex;
   align-items: center;
   height: 100%;
-
+  margin-top: -2rem;
 }
 
 .slide-wrapper {
@@ -34,7 +48,6 @@
 
 .slide-image {
   border-radius: 10px;
-  height: 28rem;
   width: 100%;
 }
 
