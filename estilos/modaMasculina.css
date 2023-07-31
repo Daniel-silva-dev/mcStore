@@ -1,0 +1,14 @@
+.modaMasculina {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 6rem;
+}
+
+.produtos-silgle p {
+  padding: 1rem;
+}
+
+.produtoImg {
+width: 20rem;
+}
