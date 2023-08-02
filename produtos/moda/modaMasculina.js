@@ -16,5 +16,11 @@ export const modaMasculina = [
     name: 'sapato',
     img: '../imagens/teste.jpg',
     quantidade: 0
+  },
+  {
+    id: 3,
+    name: 'tênis',
+    img: '../imagens/teste.jpg',
+    quantidade: 0
   }
   ];

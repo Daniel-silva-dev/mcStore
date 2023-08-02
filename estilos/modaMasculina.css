@@ -1,14 +1,18 @@
-.modaMasculina {
+.container{
+  max-width: 980px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 6rem;
+  margin-left: 6rem;
+  padding-bottom: 2rem;
 }
-
-.produtos-silgle p {
-  padding: 1rem;
+.produtos-single{
+  width: 33.3%;
+  padding: 0 1.5rem;
 }
-
-.produtoImg {
-width: 20rem;
+.produtos-single img{
+  width: 15rem;
+}
+.produtos-single p {
+  color: white;
 }
