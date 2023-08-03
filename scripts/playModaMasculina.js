@@ -7,9 +7,9 @@ function inicializarLoja() {
     
     <div class="produtos-single">
     <img src="` + val.img + `">
+    <p class='buy'> R$` + val.price + `</p>
     <p>` + val.name + `</p>
     </div>
-    
     
     `;
 
