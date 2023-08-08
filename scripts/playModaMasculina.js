@@ -1,7 +1,7 @@
 import {modaMasculina} from "../produtos/moda/modaMasculina";
 
 function inicializarLoja() {
-  var containerProdutos = document.querySelector('.container');
+  var containerProdutos = document.querySelector('.container01');
   modaMasculina.map((val) => {
     containerProdutos.innerHTML += `
     

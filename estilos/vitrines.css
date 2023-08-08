@@ -1,9 +1,9 @@
-.container{
+.container01,.container02,.container03,.container04{
   max-width: 980px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 6rem;
+  margin-left: 6%;
   padding-bottom: 1rem;
 }
 .produtos-single{
