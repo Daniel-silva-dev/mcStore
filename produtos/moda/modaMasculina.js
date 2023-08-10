@@ -26,5 +26,12 @@ export const modaMasculina = [
     img: '../imagens/teste.jpg',
     quantidade: 0,
     price: 17.99
+  },
+  {
+    id: 4,
+    name: 'jaqueta',
+    img: '../imagens/teste.jpg',
+    quantidade: 0,
+    price: 17.99
   }
   ];
