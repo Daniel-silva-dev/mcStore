@@ -1,14 +1,14 @@
 export const modaMasculina = [
   {
     id: 0,
-    name: 'camiseta',
+    name: 'camisa',
     img: '../imagens/teste.jpg',
     quantidade: 0,
     price: 17.99
   },
   {
     id: 1,
-    name: 'short',
+    name: 'bermuda',
     img: '../imagens/teste.jpg',
     quantidade: 0,
     price: 17.99

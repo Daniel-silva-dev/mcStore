@@ -1,7 +1,7 @@
 export const modaFeminina = [
   {
     id: 0,
-    name: 'camiseta',
+    name: 'blusa',
     img: '../imagens/teste.jpg',
     quantidade: 0,
     price: 17.99
