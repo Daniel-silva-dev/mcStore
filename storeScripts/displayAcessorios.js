@@ -1,21 +1,20 @@
 import {acessorios} from "../produtos/acessorios/acessorio";
 
-var index = 0;
-
 function inicializarLoja() {
-  var containerProdutos = document.querySelector('.container03');
+  var acesso = document.querySelector('.displayAcessorios');
   acessorios.map((val) => {
-    if(index <= 3){
-
-    containerProdutos.innerHTML += ` 
-    <div class="produtos-single">
+    acesso.innerHTML += `
+    
+    <div class="produtoSingle">
     <img src="` + val.img + `">
     <p class='buy'> R$` + val.price + `</p>
     <p>` + val.name + `</p>
+    <a class='comprar' href="#">Comprar</a> <a class='car' href="#">Adicionar ao Carrinho</a>
     </div>
+    
     `;
-    index++
-  };
+
   })
-}
+
+};
 inicializarLoja();
